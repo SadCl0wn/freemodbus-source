@@ -1,4 +1,4 @@
-/* 
+/*
  * FreeModbus Libary: A portable Modbus implementation for Modbus ASCII/RTU.
  * Copyright (c) 2006-2018 Christian Walter <cwalter@embedded-solutions.at>
  * All rights reserved.
@@ -74,8 +74,8 @@ PR_BEGIN_EXTERN_C
  * xMBUtilSetBits( ucBits, 8, 8, 0x5A);
  * \endcode
  */
-void            xMBUtilSetBits( UCHAR * ucByteBuf, USHORT usBitOffset,
-                                UCHAR ucNBits, UCHAR ucValues );
+void xMBUtilSetBits(UCHAR *ucByteBuf, USHORT usBitOffset,
+                    UCHAR ucNBits, UCHAR ucValues);
 
 /*! \brief Function to read bits in a byte buffer.
  *
@@ -96,8 +96,8 @@ void            xMBUtilSetBits( UCHAR * ucByteBuf, USHORT usBitOffset,
  * ucResult = xMBUtilGetBits( ucBits, 3, 8 );
  * \endcode
  */
-UCHAR           xMBUtilGetBits( UCHAR * ucByteBuf, USHORT usBitOffset,
-                                UCHAR ucNBits );
+UCHAR xMBUtilGetBits(UCHAR *ucByteBuf, USHORT usBitOffset,
+                     UCHAR ucNBits);
 
 /*! @} */
 
